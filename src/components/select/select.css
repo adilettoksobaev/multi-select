@@ -1,0 +1,64 @@
+.select {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+}
+.select.select_open .select__plaseholder:focus {
+    border-color: rgb(38, 132, 255);
+    outline: none;
+    box-shadow: none;
+}
+.select__custom {
+    width: 100%;
+    min-height: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: all .3s ease;
+    font-size: 16px;
+}
+.select__input {
+    overflow: hidden;
+    margin-right: 20px;
+}
+.select__input input {
+    box-sizing: content-box;
+    border: 0px;
+    outline: 0px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.select__arrow {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.select_open .select__arrow svg {
+    transform: rotate(180deg)
+}
+.select__arrow svg {
+    fill: rgb(204, 204, 204);
+}
+.select__plaseholder {
+    opacity: 0.5;
+    position: absolute;
+    top: 6px;
+}
+.select_hide .select__options {
+    display: none;
+}
+.select_open .select__options {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.show   {
+    display: block;
+}

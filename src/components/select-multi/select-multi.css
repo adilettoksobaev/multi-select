@@ -1,0 +1,16 @@
+.select-multi {
+    display: flex;
+    flex-wrap: wrap;
+}
+.select-multi__item {
+    display: flex;
+    align-items: center;
+    background: rgb(230, 230, 230);
+    padding: 2px 5px;
+    font-size: 13px;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    padding-right: 25px;
+    margin-right: 5px;
+}

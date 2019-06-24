@@ -1,0 +1,23 @@
+
+.select-multi__remove {
+    line-height: 1;
+    width: 20px;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+.select-multi__remove:hover {
+    background-color: rgb(255, 189, 173);
+}
+.select-multi__remove svg {
+    transition: all .3s;
+}
+.select-multi__remove:hover svg {
+    fill: rgb(222, 53, 11);
+}

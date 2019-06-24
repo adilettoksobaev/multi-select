@@ -1,0 +1,28 @@
+.select__options {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 5px 0;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px 0;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+}
+.select__option {
+    padding: 5px 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.select__option:hover {
+    background-color:rgba(0, 184, 217, 0.1);
+}
+.select__option_disabled {
+    opacity: 0.5;
+    cursor: auto;
+}
+.select__option_disabled:hover {
+    background-color: transparent;
+}
